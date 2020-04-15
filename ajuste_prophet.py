@@ -37,7 +37,7 @@ plt.xlabel('Date')
 plt.ylabel('Listens')
 plt.grid(True)
 plt.xticks(rotation=30)
-
+plt.show()
 
 #trend
 fig2 = md.plot_components(forecast_d)
@@ -83,5 +83,5 @@ fig2 = mw.plot_components(forecast_w)
 for ax in fig2.axes:
     plt.setp(ax.get_xticklabels(), visible=True, rotation=30)
 
-
+plt.show()
 
